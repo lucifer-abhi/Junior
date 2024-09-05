@@ -1,0 +1,42 @@
+* {
+  margin: 9px;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  gap: 10px;
+  /* padding: 10px; */
+}
+
+.card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+}
+
+.card img {
+  width: 95%;
+  height: 380px;
+  object-fit: cover;
+}
+div{
+  text-align: center;
+}
+#playButton{
+  border-width: 4px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#pauseButton{
+  border-width: 4px;
+  border-radius: 20px;
+  font-size: 15px;
+  cursor: pointer;
+}
